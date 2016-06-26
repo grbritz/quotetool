@@ -17,8 +17,8 @@ var config = {
     app: {
       name: 'quotetool'
     },
-    port: 5000,
-    db: 'mongodb://heroku_8ffksphm:3ubb4jhehfhcd387il7kmjiqu9@ds023714.mlab.com:23714/heroku_8ffksphm',
+    port: 3000,
+    db: process.env.MONGODB_URI,
     db_user: process.env.DB_USER,
     db_pass: process.env.DB_PASS
   },
