@@ -1,0 +1,1 @@
+Tool to help me remember quotes and snippets that I find while reading.
