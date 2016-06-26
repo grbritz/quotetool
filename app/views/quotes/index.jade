@@ -1,0 +1,14 @@
+extends ../layout
+
+block content
+  h1 Quotes
+  form(action="")
+    input(type="hidden", name="random", value="true")
+    button(type="submit").
+        Random Quote
+
+  ul.list-unstyled
+    each quote in quotes
+        li
+            blockquote=quote.text
+            p=quote.author

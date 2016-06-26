@@ -1,0 +1,11 @@
+{
+    "host": "mongodb://localhost/",
+    "port": 3000,
+    "db": "quotetool-development",
+    //"ssl": "",
+    //"user": "",
+    //"password": "",
+    "collection": "migrations",
+    "directory": "../migrations/",
+    "poolSize": 1
+}

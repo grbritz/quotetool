@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1 Quotes
+  ul.list-unstyled
+    each quote in quotes
+        li
+            blockquote=quote.text
+            p=quote.author
